@@ -1,0 +1,64 @@
+.finalize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 220, 255);
+    border: none;
+    margin-top: 20px;
+    height: 475px;
+    border-top: 5px solid rgb(100, 170, 250);
+    border-bottom: 5px solid rgb(100, 170, 250);
+}
+
+.checkout__heading {
+    color: rgb(100, 170, 250);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.checkout__input {
+    width: 500px;
+    height: 50px;
+    padding: 0px 10px;
+    border: 3px solid rgb(100, 170, 250);
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.checkout__btn1 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: 3px solid rgb(100, 170, 250);
+    border-radius: 15px;
+    color: rgb(100, 170, 250);
+    margin-top: 20px;
+}
+
+.checkout__btn1:hover {
+    background-color: rgb(100, 170, 250);
+    border: none;
+    color: white;
+}
+
+.checkout__btn2 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background: rgb(100, 170, 250);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.checkout__btn2:hover {
+    background-color: white;
+    border: 3px solid rgb(100, 170, 250);
+    color: rgb(100, 170, 250);
+}

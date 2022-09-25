@@ -1,0 +1,74 @@
+.login {
+    background-color: rgb(213, 220, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logoTitle {
+    display: flex;
+    margin: 30px 0;
+    color: white;
+    font-size: 70px;
+}
+
+.login__container {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(100, 170, 250);
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(100, 170, 250);
+}
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+}
+
+.login__container > form > input {
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-radius: 8px;
+    border: 3px solid rgb(145, 160, 233);
+  }
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login__signInButton {
+    background: rgb(145, 160, 233);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.login__registerButton {
+background: rgb(224, 228, 253);
+font-size: 20px;
+font-weight: bold;
+color: rgb(100, 170, 250);
+border-radius: 8px;
+width: 100%;
+height: 45px;
+border: 3px solid rgb(100, 170, 250);
+margin-top: 10px;
+}
